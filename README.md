@@ -1,8 +1,6 @@
-Based on the details provided for your project "three.js-scene-with-ai-character", here's a README file tailored to it:
-
-```markdown
 # Three.js Scene with AI Character
 
+```
 This project demonstrates the integration of a three.js scene with an AI character, leveraging the power of React Three Fiber for rendering and Drei for enhanced Three.js functionalities. The scene showcases advanced 3D graphics techniques and AI-driven character interaction within a web environment.
 
 ## Features
@@ -99,5 +97,3 @@ This project is marked as private and does not currently specify a license. Plea
 - All other dependencies and their contributors that make this project possible.
 
 ```
-
-Make sure to adjust any specific details to better match your project's requirements or setup. Additionally, since the project is marked as private and doesn't specify a license, I've included a note under the License section reflecting that. If you decide to change the project's visibility or add a license, you should update the README accordingly.

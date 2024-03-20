@@ -9,7 +9,7 @@ function SceneWithLuma() {
   return (
     <lumaSplats
       semanticsMask={LumaSplatsSemantics.FOREGROUND}
-      source="https://huggingface.co/datasets/dylanebert/3dgs/resolve/main/bonsai/point_cloud/iteration_7000/point_cloud.ply"
+      source="https://lumalabs.ai/capture/d80d4876-cf71-4b8a-8b5b-49ffac44cd4a"
       position={[-1, 0, 0]}
       scale={0.5}
       loadingAnimationEnabled

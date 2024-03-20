@@ -40,6 +40,7 @@ const SceneWithDeclarativeWay = ({ onProgress }) => {
       viewer.dispose();
       viewerRef.current = null;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gl, camera]);
 
   useFrame(() => {

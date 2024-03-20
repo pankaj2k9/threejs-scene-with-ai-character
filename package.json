@@ -5,10 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint:fix": "eslint . --ext .js,.jsx --fix"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@vitejs/plugin-react": "4.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "vite": "^4.4.5"
   },
   "dependencies": {
@@ -18,6 +26,7 @@
     "@react-three/fiber": "^8.15.8",
     "gle-gaussian-splat-3d": "^1.0.17",
     "gsplat": "^1.1.0",
+    "prettier": "^3.2.5",
     "r3f-perf": "^7.1.2",
     "react": "18.2",
     "react-dom": "18.2",

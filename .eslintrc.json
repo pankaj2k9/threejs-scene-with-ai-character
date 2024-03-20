@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-unused-vars": "error",
+    "react/jsx-uses-react": "off",
+    "react/jsx-uses-vars": "warn",
+    "eqeqeq": ["error", "always"], // Enforce the use of === and !==
+    "no-console": "warn", // Warn on console.log usage
+    "no-debugger": "error", // Disallow debugger in production code
+    "no-var": "error", // Require let or const instead of var
+    "prefer-const": "error", // Suggest using const
+    "no-implicit-globals": "error", // Disallow variable and function declarations in the global scope
+    "no-use-before-define": ["error", { "functions": true, "classes": true }], // Disallow the use of variables before they are defined
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
+    "react/no-array-index-key": "warn", // Prevent using array index in key props
+    "react/no-unused-state": "warn", // Prevent defining unused state fields
+    "react/self-closing-comp": "warn", // Enforce component self-closing syntax
+    "react/jsx-pascal-case": "error", // Enforce PascalCase for user-defined JSX components
+    "react/jsx-no-duplicate-props": "error", // Disallow duplicate props in JSX
+    "react/jsx-no-target-blank": "warn", // Prevent usage of unsafe target='_blank'
+    "react/jsx-curly-brace-presence": ["warn", { "props": "never", "children": "never" }] // Enforce the consistent use of curly braces in JSX attributes and children
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

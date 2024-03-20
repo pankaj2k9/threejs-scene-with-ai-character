@@ -1,11 +1,9 @@
-import React, { Suspense, useEffect, useState, useRef } from 'react';
-import { Canvas } from '@react-three/fiber'
-import Scene from './Scene.jsx'
-import SceneWithDreiOnlyForSplat from './SceneWithDreiOnlyForSplat.jsx'
-import SceneWithDeclarativeWay from './SceneWithDeclarativeWay'
-import Loader from './Loader.jsx';
-import { Perf } from 'r3f-perf'
-import { OrbitControls, PerspectiveCamera} from '@react-three/drei'
+import { Suspense, useState, useRef } from "react";
+import { Canvas } from "@react-three/fiber";
+import SceneWithDeclarativeWay from "./SceneWithDeclarativeWay";
+import Loader from "./Loader.jsx";
+import { Perf } from "r3f-perf";
+import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -21,7 +19,7 @@ function App() {
       </Suspense>
       <OrbitControls />
     </Canvas>
-  )
+  );
 }
 
-export default App
+export default App;

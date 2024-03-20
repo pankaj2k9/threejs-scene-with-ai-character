@@ -17,7 +17,9 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "vite": "^4.4.5"
+    "prettier": "^3.2.5",
+    "vite": "^4.4.5",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "dependencies": {
     "@lumaai/luma-web": "^0.2.2",
@@ -26,7 +28,6 @@
     "@react-three/fiber": "^8.15.8",
     "gle-gaussian-splat-3d": "^1.0.17",
     "gsplat": "^1.1.0",
-    "prettier": "^3.2.5",
     "r3f-perf": "^7.1.2",
     "react": "18.2",
     "react-dom": "18.2",

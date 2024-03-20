@@ -1,5 +1,6 @@
 import react from '@vitejs/plugin-react'
 import { transformWithEsbuild } from 'vite'
+import eslintPlugin from 'vite-plugin-eslint';
 
 export default {
     root: 'src/',
@@ -9,6 +10,7 @@ export default {
     [
         // React support
         react(),
+        eslintPlugin(),
 
         // .js file support as if it was JSX
         {

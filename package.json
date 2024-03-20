@@ -1,0 +1,26 @@
+{
+  "name": "three.js-scene-with-ai-character",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.1",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@lumaai/luma-web": "^0.2.2",
+    "@mkkellogg/gaussian-splats-3d": "^0.3.5",
+    "@react-three/drei": "^9.88.7",
+    "@react-three/fiber": "^8.15.8",
+    "gle-gaussian-splat-3d": "^1.0.17",
+    "gsplat": "^1.1.0",
+    "r3f-perf": "^7.1.2",
+    "react": "18.2",
+    "react-dom": "18.2",
+    "three": "^0.158.0"
+  }
+}

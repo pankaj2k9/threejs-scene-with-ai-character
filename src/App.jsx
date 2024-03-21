@@ -26,7 +26,7 @@ function App() {
         <SceneWithDeclarativeWay
           onProgress={setProgress}
           canvasRef={canvasRef}
-          fileurl="https://huggingface.co/datasets/dylanebert/3dgs/resolve/main/bonsai/point_cloud/iteration_7000/point_cloud.ply"
+          fileurl="https://huggingface.co/datasets/runes/coolsplats/resolve/main/output.splat"
           position={[3, 2, 3.2]}
         />
         {/* <Scene onProgress={setProgress} canvasRef={canvasRef} /> */}
